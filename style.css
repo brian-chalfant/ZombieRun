@@ -1,0 +1,153 @@
+
+body {
+    font-family: Chalkboard, serif;
+    background-image: url('header.png');
+    background-attachment: fixed;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.99;
+}
+.content {
+    text-align: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.form-div {
+    font-family: sans-serif;
+    min-width: 60%;
+    max-width: 70%;
+    margin: auto;
+}
+#navbar {
+    display: inline;
+    background-color: #3d3e3e;
+    justify-content: space-evenly;
+    font-family: Chalkboard, serif;
+    text-shadow: 1px 1px orangered;
+    font-size: 24px;
+    color: orange;
+    margin-bottom: 20px;
+
+}
+nav a {
+    color: orange;
+}
+
+h1 a{
+    font-size: 2em;
+    color: orange;
+    text-shadow: 4px 4px black;
+    margin-bottom: 0;
+
+}
+h1 {
+    color: orange;
+    text-shadow: 3px 3px orangered;
+    margin-bottom: 0;
+}
+img {
+    align-self: center;
+    width: 50%;
+    height: auto;
+}
+#register-now-button {
+    background-color: orangered;
+    color: orange;
+    width: 250px;
+    height: 100px;
+    font-size: 32px;
+    font-family: Impact, serif;
+    transform: translate(0px, 200px);
+}
+
+#dd {
+    padding-top:0;
+    padding-bottom: 10px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+#registration-form {
+    background-color: darkorange;
+    margin: auto;
+    border: 2px solid orange;
+    max-width: inherit;
+    display: flex;
+    justify-content: flex-end;
+    text-align: left;
+}
+
+#registration-form table {
+    background-color: darkorange;
+    padding:5px;
+    border-radius: 3%;
+    width: 100%;
+    margin: auto;
+
+}
+input[type="text" i] {
+    width: 100%;
+}
+#registration-form #register-submit-button {
+    width: 100%;
+    height: 4em;
+    border: 4px groove #ffb763;
+}
+
+fieldset {
+    border-color: orangered;
+    max-width: 100%;
+}
+td {
+    min-width: 200px;
+}
+#form-heading {
+    font-size: 1.3em;
+    text-decoration: underline;
+    text-align: center;
+}
+
+#registration-form label {
+    font-weight: bold;
+}
+.covid-div {
+    background-color: grey;
+    border: 3px solid orange;
+    padding: 10px;
+    border-radius: 3%;
+    max-width: 60%;
+    margin: auto;
+}
+.covid-info {
+    font-family: sans-serif;
+    font-size: 18px;
+    text-align: left;
+}
+.details-div {
+    font-family: sans-serif;
+    background-color: grey;
+    border: 3px solid orange;
+    padding: 10px;
+    border-radius: 3%;
+    max-width: 40%;
+    margin: auto;
+    text-align: left;
+}
+.details-div a {
+    color: orange;
+    font-weight: bold
+}
+
+.details-div ul {
+    text-align: left;
+}
+.details-div ul li {
+    list-style-type: circle;
+}
