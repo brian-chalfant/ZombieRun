@@ -1,6 +1,14 @@
+/*
+Name: Chalfant, Brian
+Project #: 06
+Stylesheet for Zombie Run Website
 
+color scheme: Grey, Goldenrod, Black, #3d3e3e
+
+*/
 body {
-    font-family: Chalkboard, serif;
+    /*Chalkboard for Macs, Comic Sans for Windows, serif as backup*/
+    font-family: Chalkboard, "Comic Sans MS", serif;
     background-image: url('header.png');
     background-attachment: fixed;
     background-size: cover;
@@ -11,6 +19,7 @@ body {
     left: 0;
     opacity: 0.99;
 }
+
 .content {
     text-align: center;
     margin: auto;
@@ -18,47 +27,61 @@ body {
     flex-direction: column;
     align-content: center;
 }
-.form-div {
-    font-family: sans-serif;
-    min-width: 60%;
-    max-width: 70%;
+
+#form-div {
+    background-color: grey;
+    border: 3px solid goldenrod;
+    padding: 10px;
+    border-radius: 3%;
+    width: 60%;
     margin: auto;
+    opacity: 0.90;
 }
+
+#form-div h1 {
+    font-family: Chalkboard, serif;
+}
+
 #navbar {
     display: inline;
     background-color: #3d3e3e;
     justify-content: space-evenly;
     font-family: Chalkboard, serif;
-    text-shadow: 1px 1px orangered;
+    text-shadow: 1px 1px black;
     font-size: 24px;
-    color: orange;
+    color: goldenrod;
     margin-bottom: 20px;
 
 }
+
 nav a {
-    color: orange;
+    color: goldenrod;
 }
 
-h1 a{
+h1 a {
     font-size: 2em;
-    color: orange;
+    color: goldenrod;
     text-shadow: 4px 4px black;
     margin-bottom: 0;
 
 }
+
 h1 {
-    color: orange;
-    text-shadow: 3px 3px orangered;
+    text-align: center;
+    color: goldenrod;
+    text-shadow: 3px 3px black;
     margin-bottom: 0;
 }
+
 img {
     align-self: center;
     width: 50%;
     height: auto;
 }
+
 #register-now-button {
-    background-color: orangered;
-    color: orange;
+    background-color: goldenrod;
+    color: black;
     width: 250px;
     height: 100px;
     font-size: 32px;
@@ -66,8 +89,18 @@ img {
     transform: translate(0px, 200px);
 }
 
+#register-submit-button {
+    background-color: black;
+    color: goldenrod;
+    border: 2px solid goldenrod;;
+    font-size: 24px;
+    font-family: Impact, serif;
+    width: 100%;
+    height: 3em;
+}
+
 #dd {
-    padding-top:0;
+    padding-top: 0;
     padding-bottom: 10px;
     margin-top: 0;
     margin-bottom: 10px;
@@ -75,39 +108,34 @@ img {
 }
 
 #registration-form {
-    background-color: darkorange;
-    margin: auto;
-    border: 2px solid orange;
-    max-width: inherit;
-    display: flex;
+    font-family: sans-serif;
+    display: block;
     justify-content: flex-end;
     text-align: left;
 }
 
 #registration-form table {
-    background-color: darkorange;
-    padding:5px;
+    background-color: grey;
+    padding: 20px;
     border-radius: 3%;
     width: 100%;
     margin: auto;
 
 }
+
 input[type="text" i] {
     width: 100%;
 }
-#registration-form #register-submit-button {
-    width: 100%;
-    height: 4em;
-    border: 4px groove #ffb763;
-}
 
 fieldset {
-    border-color: orangered;
+    border-color: black;
     max-width: 100%;
 }
+
 td {
     min-width: 200px;
 }
+
 #form-heading {
     font-size: 1.3em;
     text-decoration: underline;
@@ -117,37 +145,61 @@ td {
 #registration-form label {
     font-weight: bold;
 }
+
 .covid-div {
     background-color: grey;
-    border: 3px solid orange;
+    border: 3px solid goldenrod;
     padding: 10px;
     border-radius: 3%;
     max-width: 60%;
     margin: auto;
+    opacity: 0.90;
 }
+
 .covid-info {
     font-family: sans-serif;
     font-size: 18px;
     text-align: left;
 }
+
 .details-div {
-    font-family: sans-serif;
     background-color: grey;
-    border: 3px solid orange;
+    border: 3px solid goldenrod;
     padding: 10px;
     border-radius: 3%;
-    max-width: 40%;
+    max-width: 60%;
     margin: auto;
     text-align: left;
+    opacity: 0.90;
 }
+
+.details-div p {
+    font-family: sans-serif;
+}
+
 .details-div a {
-    color: orange;
+    color: goldenrod;
     font-weight: bold
 }
 
 .details-div ul {
     text-align: left;
 }
+
 .details-div ul li {
     list-style-type: circle;
+}
+
+#response {
+    display: none;
+    font-family: Chalkboard, serif;
+    font-size: 2em;
+    color: goldenrod;
+    text-shadow: 2px 2px black;
+    background-color: grey;
+    border: 3px solid goldenrod;
+    padding: 10px;
+    border-radius: 3%;
+    max-width: 60%;
+    margin: auto;
 }

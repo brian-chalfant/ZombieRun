@@ -2,9 +2,7 @@
 Name: Chalfant, Brian
 Project #: 06
 
-This is a website for the 2021 Honolulu Zombie Run 5k.  This is a fictitious event. Parts of text from the webpage were
-acquired from The Los Angeles Marathon Webpage and a few smaller 5k webpages. That text was then adapted to my
-fictitious event. No HTML or Javascript code was copied from any other source.
+Contactus.html: displays contact information to the user on how to contact the race organizers
 -->
 <!DOCTYPE html>
 <html lang="en">
@@ -13,7 +11,7 @@ fictitious event. No HTML or Javascript code was copied from any other source.
     <meta name="author" content="Brian Chalfant">
     <meta name="project" content="6">
     <meta name="class" content="CSCI3632">
-    <title>2021 Honolulu Zombie Run</title>
+    <title>2021 Honolulu Zombie Run - Contact Us</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -29,11 +27,14 @@ fictitious event. No HTML or Javascript code was copied from any other source.
         <a href="contactus.html">Contact Us</a>
     </nav>
 
-    <form method="post" action="register.html">
-        <button type="submit" id="register-now-button">Register Now</button>
-    </form>
+    <div class="covid-div">
+        <h1>CONTACT US</h1>
+        <p class="covid-info">
+            The 2021 Honolulu Zombie Run Committee wants to hear from you on how we can make our event even better! <br>
+            Please contact us at <a href="mailto:feedback@honoluluzombierun.com">feedback@honoluluzombierun.com</a>
+        </p>
+    </div>
 </div>
-<!-- include scripts -->
 <script src="countdown.js"></script>
 </body>
 </html>
