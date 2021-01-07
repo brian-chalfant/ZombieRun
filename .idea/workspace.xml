@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1c7d287-3525-4b3b-a90c-a0669db1b15d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/contactus.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/validation.js" afterDir="false" />
+    <list default="true" id="b1c7d287-3525-4b3b-a90c-a0669db1b15d" name="Default Changelist" comment="Finished up Styles and Commenting">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/covid.html" beforeDir="false" afterPath="$PROJECT_DIR$/covid.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.png" beforeDir="false" afterPath="$PROJECT_DIR$/header.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/legal.html" beforeDir="false" afterPath="$PROJECT_DIR$/legal.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/raceinfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/raceinfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contactus.html" beforeDir="false" afterPath="$PROJECT_DIR$/contactus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/header.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/validation.js" beforeDir="false" afterPath="$PROJECT_DIR$/validation.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +39,11 @@
     <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -54,8 +54,16 @@
       <updated>1609726511302</updated>
       <workItem from="1609726512948" duration="14488000" />
       <workItem from="1609891521203" duration="7410000" />
-      <workItem from="1609996717001" duration="10589000" />
+      <workItem from="1609996717001" duration="11743000" />
     </task>
+    <task id="LOCAL-00001" summary="Finished up Styles and Commenting">
+      <created>1610016045255</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610016045255</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -72,5 +80,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Finished up Styles and Commenting" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished up Styles and Commenting" />
   </component>
 </project>

@@ -9,7 +9,7 @@ color scheme: Grey, Goldenrod, Black, #3d3e3e
 body {
     /*Chalkboard for Macs, Comic Sans for Windows, serif as backup*/
     font-family: Chalkboard, "Comic Sans MS", serif;
-    background-image: url('header.png');
+    background-image: url('images/header.png');
     background-attachment: fixed;
     background-size: cover;
     position: absolute;
@@ -154,6 +154,7 @@ td {
     max-width: 60%;
     margin: auto;
     opacity: 0.90;
+
 }
 
 .covid-info {
@@ -202,4 +203,9 @@ td {
     border-radius: 3%;
     max-width: 60%;
     margin: auto;
+}
+#zom {
+    height: auto;
+    width: 150px;
+
 }

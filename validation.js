@@ -85,8 +85,9 @@ function validate(){
         // This is where you would write the form data to registered participants list
         form.style.display = "none";
         response.style.display = "block";
-        response.innerHTML = firstName.value + ", You are successfully Registered for the 2021 Honolulu Zombie Run!<br>" +
-            "Your Confirmation Number is: <span style='color:black; font-family: sans-serif; text-shadow: none;'> " + confirm + "</span><br>See you There!";
+        response.innerHTML = firstName.value + " " + lastName.value + ", You are successfully Registered for the 2021 Honolulu Zombie Run!<br>" +
+            "Your Confirmation Number is: <span style='color:black; font-family: sans-serif; text-shadow: none;'> "
+            + confirm + "</span><br> Keep an eye on your email for packet pickup dates, times, and locations!";
     }
 
 
